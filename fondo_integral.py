@@ -19,7 +19,7 @@ class BackgroundScene(Scene):
             rectangles
         ]:
             self.play(Create(mob))
-        self.wait(2)
+        self.wait(20)
     def getting_curve(self,t):
         curve=self.axes.plot(self.curve(t)).set_color(RED)
         return curve
