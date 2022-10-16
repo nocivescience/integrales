@@ -9,8 +9,11 @@ from manim import *
 #     # arrows.add(arrow)
 #     rands.append(rand)
 # print(rands)
-number_line=Axes()
-points=number_line.c2p(
-    [i,np.random.random()*3] for i in range(-3,3)
-)
-print(points)
+# number_line=Axes()
+# points=number_line.c2p(
+#     [i,np.random.random()*3] for i in range(-3,3)
+# )
+# print(points)
+angles=[180*(t-2)/(2*t) for t in range(3,20)]
+print(angles)
+print(angles[0]*DEGREES)
